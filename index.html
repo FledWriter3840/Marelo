@@ -713,14 +713,13 @@
             </div>
 
             <div id="menu-results" class="hidden">
-                <button type="button" id="menu-back-button"
-                    class="mb-8 inline-flex items-center gap-2 rounded-full border border-gold/40 px-5 py-2.5 text-sm font-bold text-gold transition-colors hover:bg-gold hover:text-wood-950">
-                    <i class="fa-solid fa-arrow-left"></i> Todas as categorias
-                </button>
-
                 <h3 id="category-title" class="font-serif font-black text-3xl sm:text-4xl text-cream text-center mb-8"></h3>
 
-                <div class="max-w-md mx-auto mb-8">
+                <div class="max-w-3xl mx-auto mb-8 flex flex-col sm:flex-row items-stretch gap-3">
+                    <button type="button" id="menu-back-button"
+                        class="inline-flex shrink-0 items-center justify-center gap-2 rounded-full border border-gold/40 px-5 py-2.5 text-sm font-bold text-gold transition-colors hover:bg-gold hover:text-wood-950 whitespace-nowrap">
+                        <i class="fa-solid fa-arrow-left"></i> Todas as categorias
+                    </button>
                     <div class="relative">
                         <input type="text" id="menu-search" placeholder="Buscar nesta categoria..."
                             class="w-full bg-wood-950/90 border border-gold/40 text-cream placeholder-cream/40 rounded-full py-3.5 pl-12 pr-4 text-sm focus:outline-none focus:border-gold transition-colors shadow-inner">
